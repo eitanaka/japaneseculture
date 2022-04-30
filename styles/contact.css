@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Bona Nova', serif;
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid blue;
+}
+h1 {
+    color: blue;
+    font-size: 140%;
+}
+h2 {
+    font-size: 115%;
+    padding: .5em 0;
+}
+label {
+    color: blue;
+    float: left;
+    width: 8em;
+    font-weight: bold;
+    text-align: left;
+}
+input {
+    width: 15em;
+    margin: 0 0 .5em 1em;
+}
+input:required input:invalid {
+    box-shadow: none;
+}
+#checkbox input {
+    width: 1em;
+}
+#button, #reset {
+    width: 7em;
+    background-color: silver;
+    box-shadow: 2px 2px 0 blue; }
+#button {
+    margin-left: 9em;
+}

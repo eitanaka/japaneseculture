@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Yuji+Boku&displayswap" rel="stylesheet">
+
+    <!-- Style sheet-->
+    <!-- To read bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- normalize.css -->
+    <link rel="stylesheet" href="styles/normalize.css">
+
+    <!-- To read jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Favicon -->
+	  <link rel="icon" href="images/japan.png">
+    <!-- Title -->
+    <title>Introduce Japanese Culture</title>
+</head>
+
+<body>
+    <!-- Header Navigation Menu-->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <div class="container-fluid">
+      <span class="navbar-text text-light">
+        <a class="navbar-brand text-light" href="index.html">
+          <img src="images/imgInfoLogoNav.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          Japanese Culture
+        </a>
+      </span>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link text-light" href="index.html">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <button type="button" class="btn text-light dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                About Japan
+              </button>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item text-light" href="#navAbout">Japanese Culture</a></li>
+                  <li><a class="dropdown-item text-light" href="#navData">Facts and Figures</a></li>
+                  <li><a class="dropdown-item text-light" href="#navVideo">Video</a></li>
+                  <li><a class="dropdown-item text-light" href="#navImgGlr">Image Gallery</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <button type="button" class="btn text-light dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                FOOD
+              </button>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                  <li><a class="dropdown-item text-light" href="food/food.html">Food Top</a></li>
+                  <li><a class="dropdown-item text-light" href="food/food.html#navSushi">Sushi</a></li>
+                  <li><a class="dropdown-item text-light" href="food/food.html#navSukiyaki">Sukiyaki</a></li>
+                  <li><a class="dropdown-item text-light" href="food/food.html#navKatsudon">Katsudon</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <button type="button" class="btn text-light dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                SPORTS
+              </button>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
+                  <li><a class="dropdown-item text-light" href="sports/sports.html">Sports Top</a></li>
+                  <li><a class="dropdown-item text-light" href="sports/sports.html#navSumo">Sumo</a></li>
+                  <li><a class="dropdown-item text-light" href="sports/sports.html#navKendo">Kendo</a></li>
+                  <li><a class="dropdown-item text-light" href="sports/sports.html#navKarate">Karate</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <button type="button" class="btn text-light dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                FESTIVALS
+              </button>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink4">
+                  <li><a class="dropdown-item text-light" href="festival/festival.html">Festival Top</a></li>
+                  <li><a class="dropdown-item text-light" href="festival/festival.html#navNebuta">Nebuta Festival</a></li>
+                  <li><a class="dropdown-item text-light" href="festival/festival.html#navOnbashira">Onbashira Festival</a></li>
+                  <li><a class="dropdown-item text-light" href="festival/festival.html#navGion">Gion Festival</a></li>
+                </ul>
+            </li>
+        </ul>
+      </div>
+  </div>  
+    </nav>
+    <!-- Header -->
+    <header id="header top">
+      <div class="textover">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fadeout"> 
+              <img src="images/header_home.jpg" class="img-fluid">
+          </div>
+          
+          <div class="mySlides fadeout">
+              <img src="images/header_home2.jpeg" class="img-fluid">
+          </div>
+          
+          <div class="mySlides fadeout">
+              <img src="images/header_home3.jpg" class="img-fluid">
+          </div>
+        </div>
+        <h1>Japanese Culture</h1>
+      </div>
+    </header>
+    
+    <main>
+        <!-- Section for information about Japan-->
+        <section class="infoJapan" id="navAbout">
+            <h2>About Japan</h2>
+            <div class="container-fluid aboutJapan">
+                <!-- Informatino about culture-->
+                <div class="row">
+                    <div class="col-lg-6 p-0 bg-light infoCultureImg">
+                      <img src="images/kyotoimage.jpeg" class="img-fluid" id="homeimage" alt="#">
+                    </div>
+                    <div class="col-lg-6 p-0 bg-light infoCultureTxt">
+                      <div class="textBox">
+                      <h2>Japanese Culture</h2>
+                      <p>Japan is an island nation surrounded by the sea and rich in nature.</p>
+                      <p>As such an island nation, Japan's culture is characterized by the idea of not going against nature and respecting the flow of nature in everything.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Infromatino about religion-->
+                <div class="row">
+                  <div class="col-lg-6 p-0 bg-light infoCultureTxt">
+                    <div class="textBox">
+                    <h2>Religion</h2>
+                    <p>The Japanese religion is Buddhism, which originated in ancient India and was introduced to Japan via China and Korea.</p>
+                    <p>However, Buddhism was added to the original Japanese thought and changed into a religion that "feels" the power of God.</p>
+                  </div>
+                  </div>
+                  <div class="col-lg-6 p-0 bg-light infoCultureImg">
+                    <img src="images/infoReligion.jpeg" class="img-fluid" id="" alt="#">
+                  </div>
+                </div>
+                <!-- Information about archtecture-->
+                <div class="row">
+                  <div class="col-lg-6 p-0 bg-light infoCultureImg">
+                    <img src="images/infoArhitecture.jpeg" class="img-fluid" id="" alt="#">
+                  </div>
+                  <div class="col-lg-6 p-0 bg-light infoCultureTxt">
+                    <div class="textBox">
+                      <h2>Arhitecture</h2>
+                      <p>In Japanese architecture, wood is mainly used, and technology makes lightweight materials strong.</p>
+                      <p>Because Japan is particularly prone to natural disasters such as earthquakes and typhoons, lightweight and sturdy structures have been built.</p>
+                    </div>
+                  </div>
+                </div> 
+                <!-- Infromatino about custom-->
+                <div class="row">
+                  <div class="col-lg-6 p-0 bg-light infoCultureTxt">
+                    <div class="textBox">
+                      <h2>Customs</h2>
+                      <p>As Orientals, Japanese people tend to value harmony and excel at cooperative thinking.</p>
+                      <p>Japan is prone to earthquakes and tsunamis, and there is a tendency to coexist with natural threats, which is the essence of Japanese culture.</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 p-0 bg-light infoCultureImg">
+                    <img src="images/infoCustom.jpeg" class="img-fluid" id="" alt="#">
+                  </div>
+                </div>  
+            </div>
+        </section>
+        <!-- Middle Navigation Menu -->
+        <section class="mid_nav">
+          <div class="title_text">
+            <h2>Explore by Interest</h2>
+          </div>
+          <!-- Mid nav food -->
+          <div class="d-flex d-flex justify-content-center mid_nav_contents">
+            <a href="food/food.html">
+              <div class="row">
+              <div class="col-lg-6 p-0 navText">
+                <div class="navTextBox">
+                <h2>Food</h2>
+                <p>Japan is a foodie's paradise, with some of the finest and most varied cuisine in the world.</p>
+                </div>
+              </div>
+              <div class="col-lg-6 p-0 navImg">
+                <img src="images/midNavImg_food.jpeg" class="img-fluid">
+              </div>
+            </div>
+            </a>
+          </div>
+          <!-- Mid nav Sports -->
+          <div class="d-flex d-flex justify-content-center mid_nav_contents">
+            <a href="sports/sports.html">
+              <div class="row">
+                <div class="col-lg-6 p-0 navText">
+                  <div class="navTextBox">
+                    <h2>Sports</h2>
+                    <p>Japanese culture is intertwined with sport, whether it be kendo and kyudo, originally developed for hunting and combat, judo, a combat sport with the philosophical aim of perfecting one's character or the must see cultural sport experience, sumo, the ancient Shinto ritual that has represented Japan as a national sport for centuries.</p>
+                  </div>
+                </div>
+                <div class="col-lg-6 p-0 navImg">
+                  <img src="images/midNavImg_sports.jpeg" class="img-fluid">
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Mid nav Sports -->
+          <div class="d-flex d-flex justify-content-center mid_nav_contents">
+            <a href="festival/festival.html">
+              <div class="row">
+                <div class="col-lg-6 p-0 navText">
+                  <div class="navTextBox">
+                    <h2>Festival</h2>
+                    <p>Some matsuri date back almost a thousand years, and months and months of preparation and hard work go into making them a success.</p>
+                  </div>
+                </div>
+                <div class="col-lg-6 p-0 navImg">
+                  <img src="images/midNavImg_festival.jpeg" class="img-fluid">
+                </div>
+              </div>
+            </a>
+          </div>
+        </section>
+        <!-- Section for facts and Figures-->
+        <section class="infoFacts" id="navData">
+            <h2>Facts and Figures</h2>
+            <div class="row dataBox">
+                <div class="col">
+                    <img src="images/population_logoimage.png" class="img-fluid" alt="#">
+                    <h4 class="text-center">Population</h4>
+                    <h4 class="text-center">11th</h4>
+                    <p class="text-center">126.86M</p>
+                    <p class="text-center">1/3rd of the US</p>
+                </div>
+                <div class="col">
+                    <img src="images/landarea_logoimage.png" class="img-fluid" alt="#">
+                    <h4 class="text-center">Land Area</h4>
+                    <h4 class="text-center">61th</h4>
+                    <p class="text-center">145.937 mi²</p>
+                    <p class="text-center">1/26th of the US</p>
+                </div>
+                <div class="col">
+                    <img src="images/economic_logo.jpeg" class="img-fluid" alt="#">
+                    <h4 class="text-center">Economics</h4>
+                    <h4 class="text-center">3rd with a GDP</h4>
+                    <p class="text-center">$5.15 trillion</p>
+                    <p class="text-center">1/4th of the US</p>
+                </div>
+                <div class="col">
+                    <img src="images/life_expectancy_logo.png" class="img-fluid" alt="#">
+                    <h4 class="text-center">Life expectancy</h4>
+                    <h4 class="text-center">1st</h4>
+                    <p class="text-center">84.3 years (Male: 81.5 / Female: 86.9)</p>
+                    <p class="text-center">Male: 76.3 / Female: 81.4 (US)</p>
+                    <p class="text-center"></p>
+                </div>
+            </div>
+                <!-- ADD More 4 datas-->
+        </section>
+        <!-- Section for video-->
+        <section class="infoVideo" id="navVideo">
+          <h2>Introduction Video</h2>
+          <div class="videoBox">
+            <div class="videowrapper">
+              <div class="ratio ratio-16x9">
+                  <iframe src="https://www.youtube.com/embed/WLIv7HnZ_fE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="mx-auto d-block " allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Section for image Gallery -->
+        <section class="infoImage" id="navImgGlr">
+            <h2>Image Gallery</h2>
+            <div class="container-fluid" id="springSlide">
+              <div class="row">
+              <div class="col-lg p-0 imgWrapp imgSpring">
+                <img src="images/imgInfoLogo.png">
+                <h3>Spring</h3>
+                <p>Spring is generally from March to May in Japan.</p>
+                <p>“Sakura” or cherry blossoms are a symbol of spring in Japan.</p>
+                <p>Many people gather under sakura trees for “ohanami,” </p>
+                <p>which means cherry blossom viewing, all over Japan. </p>
+  
+              </div>
+              <div class="col-lg p-0">
+                 <div class="imgContainer">
+                    <div id="springImg" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#springImg" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#springImg" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#springImg" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#springImg" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/imageGallerySpring1.jpeg" class="d-block w-100 " alt  ="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/imageGallerySpring2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/imageGallerySpring3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/imageGallerySpring4.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#springImg" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#springImg" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="container-fluid" id="summerSlide">
+              <div class="row">
+                <div class="col-lg p-0 imageSlider">
+                  <div class="imgContainer">
+                    <div id="summerImg" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#summerImg" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#summerImg" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#summerImg" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#summerImg" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/imageGallerySummer1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/imageGallerySummer2.jpeg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/imageGallerySummer3.webp" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/imageGallerySummer4.webp" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#summerImg" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#summerImg" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg p-0 imgWrapp imgSummer">
+                  <img src="images/imgInfoLogo.png">
+                  <h3>Summer</h3>
+                  <p>Summer is usually from June to August.</p>
+                  <p>You can enjoy swimming in various places.</p> <p>The islands of Okinawa are recommended to enjoy a relaxing time.</p>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid" id="fallSlide">
+              <div class="row">
+                <div class="col-lg p-0 imgWrapp imgFall">
+                  <img src="images/imgInfoLogo.png">
+                  <h3>Fall</h3>
+                  <p>September to November is usually the fall season.</p> 
+                  <p>The most comfortable and nicest weather comes in this season.</p> 
+                  <p>Visit tourist attractions anywhere in Japan that are</p>
+                  <p>famous for leaves changing colors and delight in the beauty.</p>
+                </div>
+                <div class="col-lg p-0">
+                  <div class="imgContainer">
+                    <div id="fallImg" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#fallImg" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#fallImg" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#fallImg" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#fallImg" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/imageGalleryFall1.jpeg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/imageGalleryFall2.jpeg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/imageGalleryFall3.jpeg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/imageGalleryFall4.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#fallImg" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#fallImg" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid" id="winterSlide">
+              <div class="row">
+                <div class="col-lg p-0 imageSlider">
+                  <div class="imgContainer">
+                    <div id="winterImg" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#winterImg" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#winterImg" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#winterImg" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#winterImg" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/imageGalleryWinter1.jpeg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/imageGalleryWinter2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/imageGalleryWinter3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/imageGalleryWinter4.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#winterImg" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#winterImg" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg p-0 imgWrapp imgWinter">
+                  <img src="images/imgInfoLogo.png">
+                  <h3>Winter</h3>
+                  <p>Winter is from December to February.</p>
+                  <p>It is the coldest season of the year, </p><p>which is perfect for enjoying hot springs.</p>
+                  <p>The beautiful winter scenery is exceptionally remarkable.</p>
+
+                </div>
+              </div>
+            </div>
+        </section>
+    </main>
+    <!-- Javascript - Get Current Year for the Footer -->
+    <script>
+          window.onload = function() {
+            var d = new Date();
+            document.getElementById("copyright").innerHTML = d.getFullYear();
+        }
+    </script>
+
+	  <!-- footer -->
+    <footer>
+      <!-- Page top button -->
+      <div  class="page-top bg-black">  
+        <a href="#top" id="pTop">PAGETOP</a>
+      </div>
+      <!-- footer navigation menu -->
+      <div class="footer-area bg-white">
+        <div class="footer_nav">
+          <!-- Column for About Japan -->
+          <div class="footer_nav_colum1">
+            <h5 class="text-uppercase"><a href="index.html">Home</a></h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#navAbout">About Japan</a>
+              </li>
+              <li>
+                <a href="#navData">Facts and Figures</a>
+              </li>
+              <li>
+                <a href="#navVideo">Video</a>
+              </li>
+              <li>
+                <a href="#navImgGlr">Image Gallery</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Column for Food -->
+          <div class="footer_nav_colum2">
+            <h5 class="text-uppercase"><a href="food/food.html">Food</a></h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="food/food.html#navSushi">Sushi</a>
+              </li>
+              <li>
+                <a href="food/food.html#navSukiyaki">Sukiyaki</a>
+              </li>
+              <li>
+                <a href="food/food.html#navKatsudon">Katsudon</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Column for Sports -->
+          <div class="footer_nav_colum3">
+            <h5 class="text-uppercase"><a href="sports/sports.html">Sports</a></h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="sports/sports.html#navSumo">Sumo</a>
+              </li>
+              <li>
+                <a href="sports/sports.html#navKendo">Kendo</a>
+              </li>
+              <li>
+                <a href="sports/sports.html#navKarate">Karate</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Column for Sports -->
+          <div class="footer_nav_colum4">
+            <h5 class="text-uppercase"><a href="festival/festival.html">Festivals</a></h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="festival/festival.html#navNebuta">Nebuta Festival</a>
+              </li>
+              <li>
+                <a href="festival/festival.html#navOnbashira">Onbashira Festival</a>
+              </li>
+              <li>
+                <a href="festival/festival.html#navGion">Gion Festival</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Contact us form -->
+      <div class="contact-form">
+        <p><a href="contact_form/contact.html">Contact us</a></p>
+      </div>
+      <!-- footer information -->
+      <div class="footer_info_container">
+        <div class="footer_info_image">
+          <img src="images/imgInfoLogo.png">
+        </div>
+        <div class="footer_info_text">
+          <h3>日本文化</h3>
+        </div>
+      </div>
+      <!-- Sectioin for Copyright -->
+      <div class="text-center p-3 text-light copyright">
+        <p>Copyright &copy; <span id="copyright"></span> Ei Tanaka Production</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+</html>
+<!-- Javascript - Get a return top button-->
+<script>
+window.onscroll = function() {scrollFunction()};
+  function scrollFunction() {
+    var scrollPosition = $(window).scrollTop();
+    var footerHeight = $('footer').height();
+    var underPosition = $('body').height() - (scrollPosition + $(window).height());
+    var pTopBtn = $('.page-top')
+    if(scrollPosition > $('header').height()){
+        pTopBtn.fadeIn();
+      }else{
+        pTopBtn.fadeOut();
+      }
+      if(footerHeight > underPosition){
+        pTopBtn.css({position:'absolute',top:'-60px'});
+      }else{
+        pTopBtn.css({position:'fixed', top:'', bottom:0});
+      }
+      if(scrollPosition > $('header').offset().top){
+        floatMenu.css({position:'fixed'});
+      }else{
+        floatMenu.css({position:'relative'});
+      }
+}
+</script>
+<!-- Javascript - Slideshow - -->
+<script>
+  let slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+  }
+</script>   

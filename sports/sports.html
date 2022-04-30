@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Yuji+Boku&displayswap" rel="stylesheet">
+     
+    <!-- Style sheet-->
+        <!-- To read bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- sports.css-->
+    <link rel="stylesheet" href="../styles/sub.css">
+        <!-- main.css -->
+    <link rel="stylesheet" href="../styles/main.css">
+        <!-- normalize.css -->
+    <link rel="stylesheet" href="../styles/normalize.css">
+
+    <!-- Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Favicon -->
+	<link rel="icon" href="../images/japan.png">
+
+     <!-- Title -->
+    <title>Sports | Japanese Culture</title>
+
+</head>
+<body>
+     <!-- Navigation Menu-->
+     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container-fluid">
+          <span class="navbar-text text-light">
+            <a class="navbar-brand text-light" href="../index.html">
+              <img src="../images/imgInfoLogoNav.png" width="30" height="30" class="d-inline-block align-top" alt="">
+              Japanese Culture
+            </a>
+          </span>
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="../index.html">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <button type="button" class="btn text-light dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                    About Japan
+                  </button>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item text-light" href="../index.html#navAbout">Japanese Culture</a></li>
+                      <li><a class="dropdown-item text-light" href="../index.html#navData">Facts and Figures</a></li>
+                      <li><a class="dropdown-item text-light" href="../index.html#navVideo">Video</a></li>
+                      <li><a class="dropdown-item text-light" href="../index.html#navImgGlr">Image Gallery</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <button type="button" class="btn text-light dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                    FOOD
+                  </button>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                      <li><a class="dropdown-item text-light" href="../food/food.html">Food Top</a></li>
+                      <li><a class="dropdown-item text-light" href="../food/food.html#navSushi">Sushi</a></li>
+                      <li><a class="dropdown-item text-light" href="../food/food.html#navSukiyaki">Sukiyaki</a></li>
+                      <li><a class="dropdown-item text-light" href="../food/food.html#navKatsudon">Katsudon</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <button type="button" class="btn text-light dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                    SPORTS
+                  </button>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
+                      <li><a class="dropdown-item text-light" href="sports.html">Sports Top</a></li>
+                      <li><a class="dropdown-item text-light" href="sports.html#navSumo">Sumo</a></li>
+                      <li><a class="dropdown-item text-light" href="sports.html#navKendo">Kendo</a></li>
+                      <li><a class="dropdown-item text-light" href="sports.html#navKarate">Karate</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <button type="button" class="btn text-light dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                    FESTIVALS
+                  </button>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink4">
+                      <li><a class="dropdown-item text-light" href="../festival/festival.html">Festival Top</a></li>
+                      <li><a class="dropdown-item text-light" href="../festival/festival.html#navNebuta">Nebuta Festival</a></li>
+                      <li><a class="dropdown-item text-light" href="../festival/festival.html#navOnbashira">Onbashira Festival</a></li>
+                      <li><a class="dropdown-item text-light" href="../festival/festival.html#navGion">Gion Festival</a></li>
+                    </ul>
+                </li>
+            </ul>
+          </div>
+      </div>  
+    </nav>
+    <!-- Header -->
+    <header id="header top">
+        <div class="textover">
+            <img src="../images/header_sports.jpeg" class="img-fluid">
+            <h1 class="text-light">Sports</h1>
+        </div>
+    </header>
+    <!-- Main -->
+    <main>
+        <!-- Section for Intro -->
+        <section class="intro-sub">
+            <img src="../images/logoImage_sports.png" class="info-logo">
+            <h2>Japanese Sports</h2>
+            <br>    
+            <p>Traditional Japanese sports are characterized by a vital spiritual element supporting them. The names of traditional Japanese martial arts such as "Judo", "Kendo", "Aikido", and "Kyudo" have the suffix "Do" (the road). "Do" is the pursuit of the ideal form in each discipline. "Bushido" is famous even to foreigners, it describes how a samurai should live.
+            </p>
+            <br>
+            <p>Other sports imported from the West are also thriving in Japan. In particular, soccer and baseball have become Japan's national sports.
+            </p>
+        </section>
+        <!-- Html for Sumo-->
+        <article class="infoArticle" id="navSumo">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm infoImg">
+                        <img src="../images/infoSumo.jpeg" class="img-fluid">
+                    </div>
+                    <div class="col-sm infoDescription text-light">
+                        <div class="textBox">
+                            <h2>Sumo</h2>
+                            <p>Sumo is the national sport in Japan. Many ancient traditions have been preserved in sumo, and even today the sport includes many ritual elements, such as the use of salt purification, from Shinto.</p>
+                            <p>Sumo is a form of full-contact competitive wrestling in which sumo wrestlers attempt to drag their opponents out of the circular ring or have them touch the ground with body parts other than the soles of their feet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row secVideo">
+                    <div class="col-sm">
+                        <div class="videowrapper">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/Cj_QyxPZE8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+            <!-- Html for Kendo-->
+        <article class="infoArticle" id="navKendo">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm infoDescription text-light">
+                        <div class="textBox">
+                            <h2>Kendo</h2>
+                            <p>Kendo is a modern Japanese martial art, descended from kenjutsu, one of the old Japanese martial arts, swordsmanship, using bamboo swords and protective armor.</p>
+                            <p>When Samurai were the mainstream, various schools of Kenjutsu were established, and these are the ancestors of kendo. The formal practice known as kendo kata was developed centuries ago as a Kenjutsu practice for the Samurai.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm infoImg">
+                        <img src="../images/infoKendo.jpeg" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row secVideo">
+                    <div class="col-sm">
+                        <div class="videowrapper">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/oX3GnCg9M1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+            <!-- Html for Karate-->
+        <article class="infoArticle" id="navKarate">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm infoImg">
+                        <img src="../images/infoKarate.jpeg" class="img-fluid">
+                    </div>
+                    <div class="col-sm infoDescription text-light">
+                        <div class="textBox">
+                            <h2>Karate</h2>
+                            <p>Karate is a martial art that developed in the Ryukyu Kingdom of Japan (present-day Okinawa). With approximately 3 million competitors in Japan and 40 million worldwide in 173 countries and regions, it has become a popular sport worldwide.</p>
+                            <p>There are various theories about its origins, but it developed by adding Chinese martial arts to the Okinawan indigenous kung fu while also being influenced by several Japanese martial arts.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row secVideo">
+                    <div class="col-sm">
+                        <div class="videowrapper">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/iX7CVbdMMfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    <!-- Javascript - Get Current Year for the Footer -->
+    <script>
+        window.onload = function() {
+          var d = new Date();
+          document.getElementById("copyright").innerHTML = d.getFullYear();
+      }
+    </script>
+    <!-- footer - the bottom section of the web page, containing the copyright-->
+    <footer>
+        <!-- Page top button -->
+        <div  class="page-top bg-black">  
+            <a href="#top" id="pTop">PAGETOP</a>
+        </div>
+        <div class="footer-area bg-white">
+            <!-- footer navigation menu -->
+            <div class="footer_nav">
+                <!-- Column for About Japan -->
+                <div class="footer_nav_colum1">
+                  <h5 class="text-uppercase"><a href="../index.html">Home</a></h5>
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="../index.html#navAbout">About Japan</a>
+                    </li>
+                    <li>
+                      <a href="../index.html#navData">Facts and Figures</a>
+                    </li>
+                    <li>
+                      <a href="../index.html#navVideo">Video</a>
+                    </li>
+                    <li>
+                      <a href="../index.html#navImgGlr">Image Gallery</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- Column for Food -->
+                <div class="footer_nav_colum2">
+                  <h5 class="text-uppercase"><a href="../food/food.html">Food</a></h5>
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="../food/food.html#navSushi">Sushi</a>
+                    </li>
+                    <li>
+                      <a href="../food/food.html#navSukiyaki">Sukiyaki</a>
+                    </li>
+                    <li>
+                      <a href="../food/food.html#navKatsudon">Katsudon</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- Column for Sports -->
+                <div class="footer_nav_colum3">
+                  <h5 class="text-uppercase"><a href="sports.html">Sports</a></h5>
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#navSumo">Sumo</a>
+                    </li>
+                    <li>
+                      <a href="#navKendo">Kendo</a>
+                    </li>
+                    <li>
+                      <a href="#navKarate">Karate</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- Column for Sports -->
+                <div class="footer_nav_colum4">
+                  <h5 class="text-uppercase"><a href="../festival/festival.html">Festivals</a></h5>
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="../festival/festival.html#navNebuta">Nebuta Festival</a>
+                    </li>
+                    <li>
+                      <a href="../festival/festival.html#navOnbashira">Onbashira Festival</a>
+                    </li>
+                    <li>
+                      <a href="../festival/festival.html#navGion">Gion Festival</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+            <!-- Contact us form -->
+            <div class="contact-form">
+                <p><a href="../contact_form/contact.html">Contact us</a></p>
+            </div>
+             <!-- footer information -->
+             <div class="footer_info_container">
+                <div class="footer_info_image">
+                <img src="../images/imgInfoLogo.png">
+                </div>
+                <div class="footer_info_text">
+                <h3>日本文化</h3>
+                </div>
+            </div>
+            <!-- Sectioin for Copyright -->
+            <div class="text-center p-3 text-light copyright">
+            <p>Copyright &copy; <span id="copyright"></span> Ei Tanaka Production</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+</body>
+</html>
+<script>
+window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+    var scrollPosition = $(window).scrollTop();
+    var footerHeight = $('footer').height();
+    var underPosition = $('body').height() - (scrollPosition + $(window).height());
+    var pTopBtn = $('.page-top')
+    if(scrollPosition > $('header').height()){
+        pTopBtn.fadeIn();
+        }else{
+        pTopBtn.fadeOut();
+        }
+        if(footerHeight > underPosition){
+        pTopBtn.css({position:'absolute',top:'-60px'});
+        }else{
+        pTopBtn.css({position:'fixed', top:'', bottom:0});
+        }
+        if(scrollPosition > $('header').offset().top){
+        floatMenu.css({position:'fixed'});
+        }else{
+        floatMenu.css({position:'relative'});
+        }
+}
+</script>

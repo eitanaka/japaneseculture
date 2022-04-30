@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* Styles for body */
+body {
+    font-family: 'Bona Nova', serif;
+    font-size: 100%;
+    width: 100%;
+    margin: 0 auto;
+    border: 3px solid black;
+    background-color: white;
+}
+section {
+    margin: 10em 0;
+}
+a:link {
+    text-decoration: none;
+}
+
+/* Styles for a header image*/
+.slideshow-container img {
+    filter: brightness(90%);
+}
+.textover {
+    position: relative;
+}
+.textover h1 {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 23% 10% 23%;
+    margin: 0;
+    bottom:0;
+    left: 0;
+    font-size: 300%;
+    color: white;
+    text-shadow: 4px 4px black;  
+}
+
+/* Styles for nav-bar*/
+.navbar {
+    padding: .75em 0;
+    background-color: black;
+}
+.navbar-text {
+    padding-left: 1em;
+}
+.navbar-nav {
+    padding-right: 3em;
+}
+.nav-item {
+    padding: 0 1em;
+}
+.dropdown-menu {
+    background-color: black;
+}
+
+
+/* Styles for infoJapan */
+.infoJapan {
+    margin-top: 54px;
+    padding: 0 3em;
+}
+.aboutJapan {
+    margin: 32px 0;
+}
+.aboutJapan h2, .aboutJapan p{
+    color: white;
+}
+.aboutJapan h2 {
+    text-decoration: underline;
+}
+.infoCultureTxt {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('../images/backCherry.jpeg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.infoCultureTxt p {
+    font-size: 120%;
+}
+.textBox {
+    padding: 2.90698% 11.62791%;
+}
+
+/* Styles for middle navigation menu */
+.mid_nav {
+    margin: 0 10%;
+}
+.title_text{
+    padding: 0 4.7834%;
+}
+.mid_nav a {
+    text-decoration: none;
+}
+.navText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #544c4a;
+    color: white;
+}
+.navText p {
+    font-size: 120%;
+}
+.navTextBox {
+    padding: 2.90698% 11.62791%;
+}
+
+.mid_nav_contents {
+    padding: 0 4.7834%;
+    margin: 3em 0;
+}
+.mid_nav a:hover {
+    transform: scale(0.99);
+}
+
+/* Styles for infoData*/
+.infoFacts {
+    padding: 0 3em;
+}
+.infoFacts img {
+    max-width: 200px;
+    display: block;
+    margin: 32px auto;
+}
+.dataBox {
+    background: #544c4a;
+    color: white;
+}
+
+/* Styles for infoVideo */
+.infoVideo {
+    margin: 32px 0;
+    padding: 0 3em;
+}
+.infoVideo h2 {
+    margin-bottom: 54px;
+}
+.videoBox {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/videoInfo_background.jpeg");
+}
+.videowrapper {
+    width: 70%;
+    margin: 32px auto;
+}
+
+/* Styles for Image Gallery*/
+.infoImage {
+    margin: 64px 0;
+}
+.infoImage h2 {
+    color: black;
+    padding-left: 1em;
+    margin-bottom: 32px;
+}
+.imgContainer {
+    margin: 0 auto;
+}
+.imgContainer {
+    filter: brightness(90%)
+}
+.infoImage img {
+    display: block;
+    margin: 0 auto;
+}
+/* Styles for Description in image gallery*/
+.imgWrapp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.imgWrapp img {
+    max-width: 150px;
+}
+.imgWrapp h3 {
+    color: white;
+}
+.imgWrapp p {
+    color: white;
+}
+.imgSpring {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/imgInfoBackSpring.jpeg');   
+}
+.imgSummer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/imgInfoBackSummer.jpeg');  
+    background-size: cover;
+}
+.imgFall {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/imgInfoBackFall.jpeg');  
+    background-size: cover;
+}
+.imgWinter {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/imgInfoBackWinter.jpeg');  
+    background-size: cover;
+}
+
+/* Styles for footer menu*/
+footer {
+    position: relative;
+    margin-top: 60px;
+}
+footer p {
+    font-weight: bold;
+    text-align: center;
+}
+/* Styles for scrol up*/
+footer .page-top {
+    position: fixed;
+    bottom: 0;
+    display: none;
+    z-index: 100;
+    width: 100%;
+    height: 60px;
+}
+footer .bg-black {
+    background-color: black;
+    color: white;
+}
+footer .page-top a {
+    position: relative;
+    width: 100%;
+    display: block;
+    background-image: url('../images/arrowUp.png');
+    background-repeat: no-repeat;
+    background-position: top 3px center;
+    color: white;
+    text-align: center;
+    padding-top: 32px;
+    font-size: 12px;
+    height: 60px;
+    transition: all 300ms 0s ease;
+}
+footer .page-top:hover {
+    transform: scale(1.1);
+}
+
+/* Styles for footer navigation menu*/
+.footer_nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 10px;
+    margin: 64px auto 32px;
+    padding-top: 70px;
+    max-width: 100%;
+    padding-left: 180px;
+}
+.footer_nav a {
+    color: black;
+}
+.footer_nav a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for footer contact us form */
+.contact-form p {
+    text-align: center;
+}
+.contact-form a {
+    color: black;
+}
+.contact-form p:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+/* Styles for footer information*/
+.footer_info_image {
+    float: right;
+}
+.footer_info_image img {
+    display: block;
+    max-width: 50px;
+    width: 100%;
+    margin: 0 1em 1em .5em;
+    
+}
+.footer_info_text {
+    float:right;   
+    padding-top: 1em;
+    font-family: 'Yuji Boku', serif;
+}
+
+/* Style*/
+/* Styeles for copyrigth */
+footer .copyright {
+    clear: both;
+    background-color: black;
+}
+
+
+/* Media query for 995px*/
+@media only screen and (max-width: 995px) {
+    body {
+        border: none;
+    }
+    p {
+        margin-bottom: 0;    
+    }
+    .infoCultureTxt {
+        order: 1;
+    }
+    .infoCultureImg {
+        order: 2;
+    }
+    .imgWrapper {
+        order: 1;
+     }
+    .imageSlider {
+        order: 2;
+    }
+    .footer-grid {
+    padding-left: 20px;
+    }
+}
+/* Media query for 600px*/
+@media only screen and (max-width: 600px) {
+    section {
+        margin: 3em 0;
+    }
+    .textover h1 {
+        font-size: 150%;
+        padding: 20%;
+    }
+    main {
+        padding: .5em;
+    }
+    .infoJapan {
+        padding: 0 .5em;
+    }
+    .mid_nav_contents {
+        border: 2px solid #544c4a;
+        border-radius: 10px;
+        background: #544c4a;
+    }
+    .navText {
+        background:none;
+        color: white;
+    }
+    .navText h2 {
+        text-align: center;
+    }
+    .navText p {
+        display: none;
+    }
+    .infoFacts {
+        padding: 0 .5em;
+    }
+    .infoFacts img {
+        max-width: 100px;
+    }
+    .infoVideo {
+        margin: 32px 0;
+        padding: 0 .5em;
+    }
+    .videowrapper {
+       width: 100%;
+    }
+    .footer_nav {
+        display: none;
+    }
+}

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Yuji+Boku&displayswap" rel="stylesheet">
+     
+    <!-- Style sheet-->
+        <!-- To read bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- festival.css-->
+    <link rel="stylesheet" href="../styles/sub.css">
+        <!-- main.css -->
+    <link rel="stylesheet" href="../styles/main.css">
+        <!-- normalize.css -->
+    <link rel="stylesheet" href="../styles/normalize.css">
+
+    <!-- Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Favicon -->
+	<link rel="icon" href="../images/japan.png">
+
+     <!-- Title -->
+    <title>Festival | Japanese Culture</title>
+
+</head>
+<body>
+    <!-- Navigation Menu-->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container-fluid">
+          <span class="navbar-text text-light">
+            <a class="navbar-brand text-light" href="../index.html">
+              <img src="../images/imgInfoLogoNav.png" width="30" height="30" class="d-inline-block align-top" alt="">
+              Japanese Culture
+            </a>
+          </span>
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="../index.html">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <button type="button" class="btn text-light dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                    About Japan
+                  </button>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item text-light" href="../index.html#navAbout">Japanese Culture</a></li>
+                      <li><a class="dropdown-item text-light" href="../index.html#navData">Facts and Figures</a></li>
+                      <li><a class="dropdown-item text-light" href="../index.html#navVideo">Video</a></li>
+                      <li><a class="dropdown-item text-light" href="../index.html#navImgGlr">Image Gallery</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <button type="button" class="btn text-light dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                    FOOD
+                  </button>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                      <li><a class="dropdown-item text-light" href="../food/food.html">Food Top</a></li>
+                      <li><a class="dropdown-item text-light" href="../food/food.html#navSushi">Sushi</a></li>
+                      <li><a class="dropdown-item text-light" href="../food/food.html#navSukiyaki">Sukiyaki</a></li>
+                      <li><a class="dropdown-item text-light" href="../food/food.html#navKatsudon">Katsudon</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <button type="button" class="btn text-light dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                    SPORTS
+                  </button>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
+                      <li><a class="dropdown-item text-light" href="../sports/sports.html">Sports Top</a></li>
+                      <li><a class="dropdown-item text-light" href="../sports/sports.html#navSumo">Sumo</a></li>
+                      <li><a class="dropdown-item text-light" href="../sports/sports.html#navKendo">Kendo</a></li>
+                      <li><a class="dropdown-item text-light" href="../sports/sports.html#navKarate">Karate</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <button type="button" class="btn text-light dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                    FESTIVALS
+                  </button>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink4">
+                      <li><a class="dropdown-item text-light" href="festival.html">Festival Top</a></li>
+                      <li><a class="dropdown-item text-light" href="#navNebuta">Nebuta Festival</a></li>
+                      <li><a class="dropdown-item text-light" href="#navOnbashira">Onbashira Festival</a></li>
+                      <li><a class="dropdown-item text-light" href="#navGion">Gion Festival</a></li>
+                    </ul>
+                </li>
+            </ul>
+          </div>
+      </div>  
+    </nav>
+    <!-- Header -->
+    <header>
+        <div class="textover">
+            <img src="../images/header_festival.jpeg" class="img-fluid">
+            <h1 class="text-light">Festival</h1>
+        </div>
+    </header>
+    <!-- Main -->
+    <main>
+        <!-- Section for an introduction each subpages -->
+        <section class="intro-sub">
+            <img class="info-logo" src="../images/logoImage_festival.png    ">
+            <br>
+            <h2>Japanese Festivals</h2>
+            <br>    
+            <p>Japanese festivals, or matsuri, are a very important part of the Japanese cultural calendar.
+            </p>
+            <br>
+            <p>Some matsuri date back almost a thousand years, and months and months of preparation and hard work go into making them a success. Until recent times, participation has been restricted to locals, however times are definitely changing.
+            </p>
+            <br>
+            <p>
+            In Japan, festivals are usually organized by local shrines or temples but may also be secular. Unlike many East Asian peoples, the Japanese do not generally celebrate Chinese New Year. Various festivals exist throughout Japan, but three of the most famous are listed below.
+            </p>
+        </section>
+        <!-- Section for cound down -->
+        <section class="countdown">
+            <div class="container mt-3">
+                <div class="mt-4 p-3 rounded">
+                    <h1 id="gion"></h1> 
+                    <h2>until the Gion festival takes place.</h2>
+                    <h5><a href="#navGion">Go to deatil</a></h5>
+                </div>
+            </div>
+        </section>
+        <!-- Article for Nebuta Festival-->
+        <article class="infoArticle" id="navNebuta">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm infoImg">
+                        <img src="../images/infoNebuta.jpeg" class="img-fluid">
+                    </div>
+                    <div class="col-sm infoDescription text-light">
+                        <div class="textBox">
+                            <h2>Nebuta Festival</h2>
+                            <p>The Nebuta festival is one of the most famous festivals in Japan, held in Aomori Prefecture in northern Japan. </p>
+                            <p>The festival is based on the Japanese July 7 Lantern Festival, in which distinctive portable shrines calld "Nebuta" in the shape of people or dragons are carried to pray for good health and good fortune.</p>
+                            <p>Two million people visit every year over the five days to see this festival.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row secVideo">
+                    <div class="col-sm">
+                        <div class="videowrapper">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/P8BzX-UmyGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- Html for Onbashira Festival-->
+        <article class="infoArticle" id="navOnbashira">
+            <div class="container-fluid infoContainer">
+                <div class="row">
+                    <div class="col-sm infoDescription text-light">
+                        <div class="textBox">
+                            <h2>Onbashira Festival</h2>
+                            <p>The Onbashira Festival is one of the three most bizarre festivals in Japan, held once every seven years in Nagano Prefecture, located in the center of Japan.</p>
+                            <p>The history of this festival is deep, with origins dating back more than 1,200 years. </p>
+                            <p>Since ancient times, Shintoists have believed that a deity resides in a tree, and at this festival, 14 trees are carried out from deep in the mountains by human hands to renew that sacred tree once every seven years.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm infoImg">
+                        <img src="../images/infoOnbashira.jpeg" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row secVideo">
+                    <div class="col-sm">
+                        <div class="videowrapper">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/siEgvT-jyYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+         <!-- Html for Gion Festival-->
+        <article class="infoArticle" id="navGion">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm infoImg">
+                        <img src="../images/InfoGion.jpeg" class="img-fluid">
+                    </div>
+                    <div class="col-sm infoDescription text-light">
+                        <div class="textBox">
+                            <h2>Gion Festival</h2>
+                            <p>Gion Festival is one of the three major festivals in Japan and is held in Kyoto every summer for one month.</p>
+                            <p>About 1,100 years ago, an epidemic broke out in Kyoto, causing many illnesses and deaths among ordinary people. The festival is said to have originated as a ceremony to contain the outbreak.</p>
+                            <p>This event was designated as an Important Intangible Folk Cultural Property of Japan in 1979 and was registered as an Intangible Cultural Heritage of UNESCO in 2009.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row secVideo">
+                    <div class="col-sm">
+                        <div class="videowrapper">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/5uz6wZObVps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    <!-- Javascript - Get Current Year for the Footer -->
+    <script>
+        window.onload = function() {
+          var d = new Date();
+          document.getElementById("copyright").innerHTML = d.getFullYear();
+      }
+    </script>
+    <!-- footer - the bottom section of the web page, containing the copyright-->
+    <footer>
+        <!-- Page top button -->
+        <div  class="page-top bg-black">  
+            <a href="#top" id="pTop">PAGETOP</a>
+        </div>
+        <div class="footer-area bg-white">
+            <!-- footer navigation menu -->
+            <div class="footer_nav">
+                <!-- Column for About Japan -->
+                <div class="footer_nav_colum1">
+                  <h5 class="text-uppercase"><a href="../index.html">Home</a></h5>
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="../index.html#navAbout">About Japan</a>
+                    </li>
+                    <li>
+                      <a href="../index.html#navData">Facts and Figures</a>
+                    </li>
+                    <li>
+                      <a href="../index.html#navVideo">Video</a>
+                    </li>
+                    <li>
+                      <a href="../index.html#navImgGlr">Image Gallery</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- Column for Food -->
+                <div class="footer_nav_colum2">
+                  <h5 class="text-uppercase"><a href="../food/food.html">Food</a></h5>
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="../food/food.html#navSushi">Sushi</a>
+                    </li>
+                    <li>
+                      <a href="../food/food.html#navSukiyaki">Sukiyaki</a>
+                    </li>
+                    <li>
+                      <a href="../food/food.html#navKatsudon">Katsudon</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- Column for Sports -->
+                <div class="footer_nav_colum3">
+                  <h5 class="text-uppercase"><a href="../sports/sports.html">Sports</a></h5>
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="../sports/sports.html#navSumo">Sumo</a>
+                    </li>
+                    <li>
+                      <a href="../sports/sports.html#navKendo">Kendo</a>
+                    </li>
+                    <li>
+                      <a href="../sports/sports.html#navKarate">Karate</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- Column for Sports -->
+                <div class="footer_nav_colum4">
+                  <h5 class="text-uppercase"><a href="festival.html">Festivals</a></h5>
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#navNebuta">Nebuta Festival</a>
+                    </li>
+                    <li>
+                      <a href="#navOnbashira">Onbashira Festival</a>
+                    </li>
+                    <li>
+                      <a href="#navGion">Gion Festival</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+            <!-- Contact us form -->
+            <div class="contact-form">
+                <p><a href="../contact_form/contact.html">Contact us</a></p>
+            </div>
+            <!-- footer information -->
+            <div class="footer_info_container">
+                <div class="footer_info_image">
+                    <img src="../images/imgInfoLogo.png">
+                </div>
+                <div class="footer_info_text">
+                    <h3>日本文化</h3>
+                </div>
+            </div>
+            <!-- Sectioin for Copyright -->
+            <div class="text-center p-3 text-light copyright">
+            <p>Copyright &copy; <span id="copyright"></span> Ei Tanaka Production</p>
+            </div>
+        </div>
+
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script> 
+</body>
+<!-- Count Down for Nebuta Festival-->
+<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Jul 1, 2022 00:00:00").getTime();
+    
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+    
+      // Get today's date and time
+      var now = new Date().getTime();
+        
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+        
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+      // Output the result in an element with id="demo"
+      document.getElementById("gion").innerHTML = days + " days, " + hours + " hours, "
+      + minutes + " minuites, and " + seconds + " seconds ";
+        
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("gion").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+</script>
+</html>
+<script>
+window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+    var scrollPosition = $(window).scrollTop();
+    var footerHeight = $('footer').height();
+    var underPosition = $('body').height() - (scrollPosition + $(window).height());
+    var pTopBtn = $('.page-top')
+    if(scrollPosition > $('header').height()){
+        pTopBtn.fadeIn();
+        }else{
+        pTopBtn.fadeOut();
+        }
+        if(footerHeight > underPosition){
+        pTopBtn.css({position:'absolute',top:'-60px'});
+        }else{
+        pTopBtn.css({position:'fixed', top:'', bottom:0});
+        }
+        if(scrollPosition > $('header').offset().top){
+        floatMenu.css({position:'fixed'});
+        }else{
+        floatMenu.css({position:'relative'});
+        }
+}
+</script>

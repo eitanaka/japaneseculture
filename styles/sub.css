@@ -1,0 +1,76 @@
+/* Styles for introdction of subpage */
+.intro-sub {
+    padding: 0 7.38596% 0 4.38596%;
+}
+.intro-sub h2 {
+    color: black;
+}
+.intro-sub p {
+    font-size: 120%;
+}
+.intro-sub img {
+    margin-bottom: 1em;
+}
+
+/* Styles for countdown */
+.countdown {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('../images/countdown_background.jpg');
+    margin: 0 3% 54px;
+}
+.countdown h1, .countdown h2, .countdown h5 {
+    color: white;
+    text-align: center;
+} 
+.countdown h5 {
+    text-decoration: underline;
+}
+.countdown a{
+    color: white;
+}
+.countdown h5:hover {
+    transform: scale(1.1);
+}
+/* Styles for Specific Article*/
+.infoArticle {
+    margin: 54px 3%;
+    padding: 32px 0;
+    background: #544c4a; 
+}
+.infoArticle p {
+    font-size: 120%;
+}
+.infoDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.infoDescription img {
+    display: block;
+    margin: 0 auto;
+}
+.info-logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 50px;
+    width: 100%;
+}
+.infoDescription h2 {
+    text-decoration: underline;
+}
+.infoImg {
+    filter: brightness(100%);
+}
+.secVideo {
+    margin: 32px 0;
+}
+@media only screen and (max-width: 575px) {
+    .main {
+        margin-top: 16px;
+    }
+    .infoArticle {
+       order: 0;
+    }
+    .infoImg {
+        order: 1
+    }
+} 
