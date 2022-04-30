@@ -42,3 +42,17 @@ input:required input:invalid {
 #button {
     margin-left: 9em;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-family: 'Bona Nova', serif;
+        width: 375px;
+        margin: 30px auto;
+        padding: 20px;
+        border: none;
+    } 
+    #button {
+        margin-left: 1em;
+    }
+    
+} 
